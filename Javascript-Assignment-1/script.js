@@ -18,7 +18,7 @@ const request = new Request(
             const dataContainer = document.getElementById("data-container");
 
             // Create an HTML structure to display the data (modify as needed)
-            const artistList = document.createElement("ul");
+            const artistList = document.createElement("ol");
 
             // Loop through the data and create list items for each artist
             data.artists.forEach(artist => {
