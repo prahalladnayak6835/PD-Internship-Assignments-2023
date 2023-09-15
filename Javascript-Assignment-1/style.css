@@ -1,0 +1,47 @@
+/* Reset some default styles for better consistency */
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the body */
+body {
+    background-color: #f0f0f0; /* You can change this color to your preference */
+    font-family: Arial, sans-serif; /* Choose a suitable font-family */
+    color: #333; /* Text color */
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    background-color: #007acc; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 20px;
+}
+
+/* Style the container for data (if needed) */
+#data-container {
+    /* Add your styles here */
+}
+
+/* Style the artist list */
+#artist-list {
+    list-style: none; /* Remove list bullets */
+    margin: 20px auto; /* Center the list horizontally */
+    max-width: 400px; /* Set a maximum width for the list */
+}
+
+/* Style list items (artists) */
+#artist-list li {
+    padding: 10px;
+    border: 1px solid #ccc; /* Border around each artist */
+    margin-bottom: 10px; /* Spacing between artists */
+    background-color: #fff; /* Background color for each artist */
+    padding-bottom: 10px;
+}
+
+/* Hover effect for list items */
+#artist-list li:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+    
+}
